@@ -1,0 +1,454 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:sans-serif !important;
+    line-height: 1.6;
+  }
+  
+  .container {
+    font-family:sans-serif !important;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Header */
+  .header {
+    font-family:sans-serif !important;
+    background: #3b90b8;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo {
+    font-family:sans-serif !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    font-family:sans-serif !important;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navbar a {
+    font-family:sans-serif !important;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .navbar .btn {
+    font-family:sans-serif !important;
+    background: #ff6b6b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    font-family: sans-serif !important;
+    
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #f4f4f4;
+    width: 100vw;
+    /* background-image: url('./bg-how-does-office365-mailbox-work.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+.icon{
+    width: 50px;
+    background-color: white;
+    display: flex;
+        justify-content: center;
+        align-items: baseline;
+        border-color: black;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 100%;
+    img{
+        width: 98%;
+    }
+}
+.icon-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.icon-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+  
+  .hero h1 {
+    font-family:sans-serif !important;
+    margin-bottom: 1rem;
+    color: #3b90b8;
+    font-size: 34px;
+  }
+  
+  .hero .btn-red {
+    font-family:sans-serif !important;
+    background: #ff6b6b;
+  }
+  
+  .hero .btn-blue {
+    background: #007bff;
+  }
+
+  .btn{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 43px;
+    color: white;
+    text-decoration: none;
+  }
+  .hero-buttons{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+  }
+
+
+/* Product Menu Section */
+.product-menu {
+    background-color: #fff;
+    text-align: center;
+}
+.menu-header{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(12, 147, 209);
+        padding: 14px 50px 14px 51px;
+}
+
+.product-menu .menu-header h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    
+}
+.product-menu .menu-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.product-menu .menu-content .highlight {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+    font-size: 1.4rem;
+    color: #666;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.product-menu .menu-content .highlight-blue {
+    font-size: 1rem;
+    color: #0078d4;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-menu a.link {
+    font-size: 1rem;
+    color: #0078d4;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+    align-self: flex-start;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #007bff;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    gap: 5px;
+}
+
+
+
+.product-menu h1 {
+    font-size: 1.7rem;
+    color: #333;
+ 
+    text-align: start;
+}
+
+.product-menu p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+   
+    text-align: start;
+}
+.list-items{
+    list-style-type: decimal;
+    display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 19px;
+}
+.try-button{
+    display: flex;
+    align-items: center;
+    justify-content: 'center';
+    align-self: center;
+    background-color: #0078d4;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    
+}
+.extra-color{
+    background-color: aliceblue;
+    padding-bottom: 15px;
+    align-self: flex-start;
+    width: 100%;
+}
+
+  
+  
+ 
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 15px;
+}
+
+.container {
+    display: flex;
+    
+    gap: 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1rem;
+    margin: 0 0 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+address {
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+  .video-icon-container{
+    width: 65%;
+    background: #b3d4e3;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 30px;
+    border-radius: 7px;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .details{
+    font-size: 28px;
+   
+    strong{
+        color: #3b90b8;
+        font-size: 34px;
+    }
+  }
+  
+  /* Mobile Styles */
+  .menu-toggle {
+    font-family:sans-serif !important;
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    font-family:sans-serif !important;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 768px) {
+    
+    .menu-toggle {
+        font-family:sans-serif !important;
+      display: block;
+    }
+  
+    .navbar {
+        font-family:sans-serif !important;
+      flex-direction: column;
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #00274d;
+      padding: 1rem;
+    }
+  
+    .navbar a {
+        font-family:sans-serif !important;
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+  
+    .navbar.show {
+        font-family:sans-serif !important;
+      display: flex;
+    }
+  }
+  .button-container {
+    display: inline-flex;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.button-left {
+    background-color: #008cba;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-right {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 9px 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 86px;
+}
+
+.button-right span {
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-left: 5px;
+    
+}
+
+.triangle {
+        width: 3px;
+height: 0px;
+border-style: solid;
+border-width: 5px 15px 7px 0;
+border-color: transparent #d9534f transparent transparent;
+position: absolute;
+top: 45%;
+left: 58%;
+transform: translate(-100%, -50%);
+}
